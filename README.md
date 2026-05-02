@@ -1,2 +1,2 @@
-# Ci-ncia-da-Computa-o
+# ciencia da computaçao
 Estudo!!

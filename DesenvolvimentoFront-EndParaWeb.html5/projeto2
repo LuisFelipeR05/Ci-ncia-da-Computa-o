@@ -1,0 +1,23 @@
+projeto-final/
+├── index.html
+├── cadastro.html
+├── contato.html
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   |   └── script.js
+│   ├── img/
+│   │   ├── banner-hero.avif
+│   |   ├── banner-hero.webp
+│   |   ├── banner-hero.jpg
+│   |   ├── logo.svg
+│   |   ├── logo.png
+│   |   ├── icone-cpf.svg
+│   |   ├── icone-telefone.svg
+│   |   ├── icone-cep.svg
+│   |   ├── favicon.ico
+│   |   └── favicon.svg
+│   └── fonts/
+│       └── ...
+└── README.md

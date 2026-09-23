@@ -1,0 +1,99 @@
+<main>
+ 
+    <!-- Apresentação institucional -->
+    <section id="apresentacao" class="hero">
+        <div class="container">
+            <h1>Nome da ONG</h1>
+            <p>Transformamos vidas por meio de ...</p>
+            #contatoFale conosco</a>
+        </div>
+ 
+        <figure>
+            imagens/ong-apresentacao.jpg
+            <figcaption>
+                Nossa atuação junto à comunidade.
+            </figcaption>
+        </figure>
+    </section>
+ 
+    <!-- Seções institucionais -->
+    <section id="sobre" class="institucional">
+        <h2>Sobre nós</h2>
+        <p>...</p>
+    </section>
+ 
+    <section id="missao" class="institucional">
+        <h2>Missão, Visão e Valores</h2>
+ 
+        <article>
+            <h3>Missão</h3>
+            <p>...</p>
+        </article>
+ 
+        <article>
+            <h3>Visão</h3>
+            <p>...</p>
+        </article>
+ 
+        <article>
+            <h3>Valores</h3>
+            <p>...</p>
+        </article>
+    </section>
+ 
+    <!-- Contato -->
+    <section id="contato" class="contato">
+        <h2>Entre em contato</h2>
+        <p>...</p>
+ 
+        <address>
+            <p>
+                Email:
+                <a href="mailto:contato@ong.org">
+                    contato@ong.org
+                </a>
+            </p>
+ 
+            <p>
+                Telefone:
+                tel:+5511999999999
+                    (11) 99999-9999
+                </a>
+            </p>
+ 
+            <p>
+                Endereço: Rua ..., 123 - Cidade/UF
+            </p>
+        </address>
+ 
+        #
+            <label for="nome">Nome:</label>
+            <input
+                type="text"
+                id="nome"
+                name="nome"
+                required
+            >
+ 
+            <label for="email">E-mail:</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                required
+            >
+ 
+            <label for="mensagem">Mensagem:</label>
+            <textarea
+                id="mensagem"
+                name="mensagem"
+                required>
+            </textarea>
+ 
+            <button type="submit">
+                Enviar
+            </button>
+        </form>
+    </section>
+ 
+</main>

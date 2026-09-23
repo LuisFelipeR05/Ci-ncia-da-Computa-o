@@ -1,0 +1,42 @@
+/* Botão do menu mobile */
+.menu-toggle {
+display: flex;
+}
+
+/* Menu principal */
+.nav-menu {
+display: none;
+flex-direction: column;
+position: absolute;
+top: 100%;
+left: 0;
+width: 100%;
+background: #fff;
+padding: 1rem;
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+/* Animação do menu */
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.4s ease;
+}
+
+/* Exibe o menu quando o checkbox está marcado */
+#menu-toggle:checked ~ .nav-menu,
+.nav-menu.active {
+display: flex;
+max-height: 500px; /* Ajuste conforme necessário */
+}
+
+/* Submenu */
+.submenu {
+position: static;
+display: none;
+width: 100%;
+box-shadow: none;
+}
+
+/* Exibe submenu do item ativo */
+.nav-item.active .submenu {
+display: block;
+}

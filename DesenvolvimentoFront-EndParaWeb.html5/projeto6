@@ -1,0 +1,46 @@
+/* Botão principal */
+.btn {
+background: #2563eb;
+color: #fff;
+border: none;
+border-radius: 6px;
+padding: 0.65rem 1.1rem;
+cursor: pointer;
+
+transition:
+background-color 0.25s,
+box-shadow 0.25s,
+transform 0.15s,
+opacity 0.2s;
+}
+
+/* Efeito ao passar o mouse */
+.btn:hover {
+background: #1d4ed8;
+box-shadow: 0 6px 14px rgba(0, 0, 0, 0.18);
+transform: translateY(-1px);
+}
+
+/* Acessibilidade ao navegar com teclado */
+.btn:focus-visible {
+outline: 3px solid #93c5fd;
+outline-offset: 2px;
+box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.25);
+}
+
+/* Efeito ao clicar */
+.btn:active {
+background: #1e40af;
+transform: translateY(1px);
+box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Estado desabilitado */
+.btn:disabled {
+background: #94a3b8;
+color: #e2e8f0;
+cursor: not-allowed;
+opacity: 0.65;
+box-shadow: none;
+transform: none;
+}

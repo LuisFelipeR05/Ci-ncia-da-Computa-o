@@ -1,0 +1,44 @@
+.topbar,
+.nav-menu,
+.user-actions,
+.card-header,
+.card-actions,
+.form-row,
+.table-toolbar,
+.pagination {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.card,
+.card-body,
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    flex: 1;
+    min-height: 0;
+    overflow: auto;
+}
+
+.campo {
+    flex: 1 1 220px;
+    min-width: 0;
+}
+
+.topbar,
+.card-header,
+.table-toolbar {
+    justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+    .footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
